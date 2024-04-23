@@ -13,6 +13,7 @@
 5. Axios
 6. Sass
 7. Vite
+8. Antd
 
 ### Clone project
 
