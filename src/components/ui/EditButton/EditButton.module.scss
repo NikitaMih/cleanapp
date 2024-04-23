@@ -1,0 +1,13 @@
+@import "../../../assets/library.scss";
+
+.editBtn {
+  border: 1px solid $grey-300;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  background-color: transparent;
+
+  &:hover {
+    background-color: $grey-300;
+  }
+}

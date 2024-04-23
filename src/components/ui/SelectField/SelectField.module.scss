@@ -1,0 +1,21 @@
+@import "../../../assets/library.scss";
+
+.flex {
+  display: flex;
+  align-items: center;
+
+  div {
+    margin-left: 13px;
+    font-size: 14px;
+    font-weight: 475;
+  }
+}
+
+.select {
+  width: 76px !important;
+
+  div {
+    background-color: $grey-800 !important;
+    color: $white !important;
+  }
+}

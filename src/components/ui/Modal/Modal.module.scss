@@ -1,0 +1,30 @@
+@import "../../../assets/library.scss";
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+  z-index: 1000;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.content {
+  position: relative;
+  padding: 24px;
+  background-color: $white;
+  height: 100vh;
+  width: 400px;
+}

@@ -1,0 +1,77 @@
+@import "../../../assets/library.scss";
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 353px;
+
+  button {
+    width: 170px;
+    height: 40px;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    color: $white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .cancel {
+    background-color: $grey-800;
+  }
+
+  .confirm {
+    background-color: $burgundy;
+
+    &:disabled {
+      background-color: $grey-500;
+      cursor: auto;
+    }
+  }
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $grey-600;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.field {
+  margin-bottom: 16px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 475;
+    margin-bottom: 7px;
+  }
+
+  textarea {
+    font-size: 14px;
+    width: 353px;
+    border-radius: 4px;
+    height: 140px;
+    border: 1px solid $grey-500;
+    outline: none;
+    padding: 10px 12px;
+  }
+}
+
+.input {
+  font-size: 14px;
+  width: 353px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid $grey-500;
+  padding: 10px 12px;
+}

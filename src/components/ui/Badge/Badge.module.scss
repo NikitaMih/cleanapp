@@ -1,0 +1,10 @@
+@import '../../../assets/library.scss';
+
+.badge {
+  font-size: 13px;
+  line-height: 16px;
+  background-color: $burgundy;
+  color: $white;
+  border-radius: 4px;
+  padding: 3px 8px;
+}

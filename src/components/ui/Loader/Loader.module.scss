@@ -1,0 +1,24 @@
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+.loaderContainer {
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #d9d9d9 94%, #0000) top/8px 8px
+      no-repeat,
+    conic-gradient(#0000 30%, #d9d9d9);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  animation: ring 1s infinite linear;
+}
+
+@keyframes ring {
+  100% {
+    transform: rotate(1turn);
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../../assets/library.scss";
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid $grey-500;
+  border-radius: 4px;
+  padding-left: 10px;
+  height: 40px;
+
+  input {
+    font-size: 18px;
+    line-height: 21.6px;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+
+    &::placeholder {
+      color: grey;
+    }
+  }
+}
+
+.searchBtn {
+  background-color: $grey-800;
+  color: $white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  height: 40px;
+  width: 71px;
+  font-size: 14px;
+}

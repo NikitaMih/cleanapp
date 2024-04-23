@@ -1,0 +1,18 @@
+@import "../../../assets/library.scss";
+
+.addBtn {
+  font-size: 14px;
+  font-weight: 475;
+  line-height: 20px;
+  background-color: $burgundy;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 14px;
+  border: none;
+  color: $white;
+  cursor: pointer;
+}
+
+.addBtnText {
+  margin-left: 8px;
+}
