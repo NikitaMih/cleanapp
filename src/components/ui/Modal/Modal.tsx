@@ -1,9 +1,9 @@
 import classNames from "classnames";
 
 import style from "./Modal.module.scss";
-import { ModalWrapper } from "src/share/types";
+import { ModalWrapp } from "src/share/types";
 
-const ModalWrapper: ModalWrapper = ({ active, setActive, children }) => {
+const ModalWrapper: ModalWrapp = ({ active, setActive, children }) => {
   return (
     <div>
       <div className={classNames([style.modal], { [style.active]: active })} onClick={() => setActive(false)}>

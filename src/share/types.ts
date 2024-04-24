@@ -17,7 +17,7 @@ export type ModalPropsType = {
   data?: Data;
 };
 
-export type ModalWrapper = FC<{
+export type ModalWrapp = FC<{
   children: React.ReactNode;
   active: boolean;
   setActive: (boolean) => void;
